@@ -411,6 +411,10 @@ header{
       width: 100%;
 
     }
+    .largeDisplay a{
+      width: 100%;
+
+    }
     .largeDisplayFrame{
       display: inline-block;
       background-color: #fff; 
@@ -425,7 +429,7 @@ header{
       display: inline-block;
       vertical-align: top;
       padding-left: 50px;
-      width: 40%;
+      width: 50%;
     }
 
     .ImgDiscription h2{
@@ -471,4 +475,49 @@ header{
       border-bottom: 3px solid #3b82f6; 
       display: inline-block; 
       padding-bottom: 5px; 
+    }
+
+    .Linked-Photo{ 
+      background-color: #fff; 
+      border-radius: 8px; 
+      overflow: hidden; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+      transition: transform 0.3s, box-shadow 0.3s; 
+      width: 333;
+      text-align: center;
+    }
+
+    .Linked-Photo:hover { 
+      transform: translateY(-5px); 
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15); 
+    }
+    .imageView{
+      width:90%;
+      text-align: center;
+      display: flex;
+    }
+    .imageView{
+      width:90%;
+      text-align: center;
+      display: flex;
+    }
+    .backlink{
+      display: inline-block;
+      background-color: #fff; 
+      border-radius: 8px; 
+      overflow: hidden; 
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08); 
+      transition: transform 0.3s, box-shadow 0.3s; 
+      width: 333;
+      text-align: center;
+    }
+    .backlink a{
+      display: inline-block;
+      color: #1a1a1a ;
+      text-decoration: none;
+    }
+    .backlink:hover{
+      display: inline-block;
+            transform: translateY(-5px); 
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15); 
     }
